@@ -23,5 +23,5 @@ electronTest("With both numbers changed returns sum", async ({ page }) => {
     await aInput.fill(String(a))
     await bInput.fill(String(b))
     const result = await page.getByTestId("result")
-    expect(await result.innerText()).toBe(String(a + b))
+    expect(await result.innerText()).toBe(String("ra" + a + b))
 })
