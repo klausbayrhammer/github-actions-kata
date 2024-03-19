@@ -22,3 +22,4 @@ jobs:
         with:
           name: e2e-test-results
           path: desktop-app/test-results/**
+          retention-days: 7
