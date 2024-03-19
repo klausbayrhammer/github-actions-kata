@@ -1,7 +1,7 @@
 name: learn-github-actions
 on:
   pull_request:
-    paths: "desktop-app/src/**.tsx?"
+    paths: "desktop-app/src/**/*.tsx?"
 
 jobs:
   run-unit-tests:
