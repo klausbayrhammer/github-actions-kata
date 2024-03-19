@@ -26,7 +26,5 @@ jobs:
           retention-days: 7
       - name: test
         if: failure()
-        env:
-          JOB_CONTEXT:
         run:
           echo "xxx ${{ jobs.run-unit-tests.steps.upload-artifact }}"
