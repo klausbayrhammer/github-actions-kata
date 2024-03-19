@@ -1,4 +1,3 @@
-// @ts-ignore
-export function sum(a: number, b: number, c: number | undefined = undefined) {
-  return a + b;
+export function sum(a: number, b: number, c = 0) {
+    return a + b + c;
 }
