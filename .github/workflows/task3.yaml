@@ -1,7 +1,7 @@
 name: learn-github-actions
 on:
   push:
-    paths: "desktop-app/src/**.tsx"
+    paths: "desktop-app/src/**.tsx?"
 
 jobs:
   run-unit-tests:
