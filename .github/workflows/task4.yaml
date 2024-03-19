@@ -27,4 +27,4 @@ jobs:
       - name: test
         if: failure()
         run: |
-          echo "xxx ${{ jobs.run-unit-tests.steps.upload-artifact }}"
+          echo "xxx ${{ upload-artifact }}"
